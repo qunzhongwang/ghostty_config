@@ -8,12 +8,14 @@ font-family = "Hack Nerd Font Mono"
 theme = "AdventureTime"
 shell-integration = "bash"
 working-directory = "home"
-command = "/bin/bash -c /opt/homebrew/bin/zellij"
 keybind = global:cmd+grave_accent=toggle_quick_terminal
 keybind = global:cmd+shift+enter=toggle_fullscreen
-macos-option-as-alt = true
-keybind = alt+left=unbind
-keybind = alt+right=unbind
+# TODO: alt doesn't work to move to the right tab or word boundaries in zellij
+# ! https://github.com/ghostty-org/ghostty/discussions/3483
+# command = "/bin/bash -c /opt/homebrew/bin/zellij"
+# macos-option-as-alt = true
+# keybind = alt+left=unbind
+# keybind = alt+right=unbind
 copy-on-select = true
 window-save-state = "always"
 scrollback-limit = 524288000
