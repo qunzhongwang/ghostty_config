@@ -1,0 +1,24 @@
+title = " "
+macos-titlebar-proxy-icon = "hidden"
+macos-icon ="custom-style"
+macos-icon-frame = "beige"
+macos-icon-screen-color = 1f1d45
+font-size = 14
+font-family = "Hack Nerd Font Mono"
+theme = "AdventureTime"
+shell-integration = "bash"
+working-directory = "home"
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+keybind = global:cmd+shift+enter=toggle_fullscreen
+copy-on-select = true
+window-save-state = "always"
+scrollback-limit = 524288000
+quick-terminal-position = "top"
+quick-terminal-screen = "main"
+quick-terminal-autohide = true
+window-width = 150
+window-height = 40
+window-padding-x = 10
+window-padding-y = 10
+auto-update = "check"
+auto-update-channel = "tip"
