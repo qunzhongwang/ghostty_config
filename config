@@ -1,30 +1,29 @@
 title = " "
-macos-titlebar-proxy-icon = "hidden"
-macos-icon ="custom-style"
-macos-icon-frame = "beige"
-macos-icon-screen-color = 1f1d45
-font-size = 14
-font-family = "Hack Nerd Font Mono"
-theme = "AdventureTime"
-shell-integration = "bash"
+maximize = true
 working-directory = "home"
-keybind = global:cmd+grave_accent=toggle_quick_terminal
-keybind = global:cmd+shift+enter=toggle_fullscreen
-# TODO: alt doesn't work to move to the right tab or word boundaries in zellij
-# ! https://github.com/ghostty-org/ghostty/discussions/3483
-# command = "/bin/bash -c /opt/homebrew/bin/zellij"
-# macos-option-as-alt = true
-# keybind = alt+left=unbind
-# keybind = alt+right=unbind
-copy-on-select = true
-window-save-state = "always"
-scrollback-limit = 524288000
-quick-terminal-position = "top"
-quick-terminal-screen = "main"
+quit-after-last-window-closed = true
+quick-terminal-screen = mouse
 quick-terminal-autohide = true
-window-width = 150
-window-height = 40
+scrollback-limit = 524288000
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = clipboard
+window-inherit-working-directory = false
+window-save-state = "always"
 window-padding-x = 10
 window-padding-y = 10
+window-height = 40
+window-width = 150
+theme = "AdventureTime"
+font-size = 14
+font-family = "Hack Nerd Font Mono"
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+keybind = global:cmd+shift+enter=toggle_fullscreen
+mouse-hide-while-typing = true
+app-notifications = no-clipboard-copy
+macos-titlebar-proxy-icon = "hidden"
 auto-update = "check"
 auto-update-channel = "tip"
+macos-icon = "custom-style"
+macos-icon-frame = "beige"
+macos-icon-screen-color = 1f1d45
