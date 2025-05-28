@@ -1,6 +1,10 @@
 title = " "
 maximize = true
 working-directory = "home"
+# TODO: fix `command` / `initial-command` error
+# shell-integration = "bash"
+# initial-command = "~/.config/ghostty/startup.sh bash"
+# command = "bash $HOME/.config/ghostty/startup.sh"
 quit-after-last-window-closed = true
 quick-terminal-screen = mouse
 quick-terminal-autohide = true
