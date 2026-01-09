@@ -1,3 +1,4 @@
+config-file = ?auto/theme.ghostty
 title = " "
 maximize = true
 working-directory = "home"
@@ -20,7 +21,7 @@ window-padding-x = 10
 window-padding-y = 10
 window-height = 40
 window-width = 150
-theme = "AdventureTime"
+theme = "Adventure Time"
 font-size = 14
 font-family = "Hack Nerd Font Mono"
 keybind = global:cmd+grave_accent=toggle_quick_terminal
