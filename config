@@ -2,10 +2,8 @@ config-file = ?auto/theme.ghostty
 title = " "
 maximize = true
 working-directory = "home"
-# TODO: fix `command` / `initial-command` error
-shell-integration = "bash"
-initial-command = "~/.config/ghostty/startup.sh bash"
-command = "bash $HOME/.config/ghostty/startup.sh"
+shell-integration = "zsh"
+initial-command = "~/.config/ghostty/startup.sh"
 quit-after-last-window-closed = true
 quick-terminal-screen = mouse
 quick-terminal-autohide = true
@@ -22,7 +20,7 @@ window-padding-y = 10
 window-height = 40
 window-width = 150
 theme = "Adventure Time"
-font-size = 14
+font-size = 16
 font-family = "Hack Nerd Font Mono"
 keybind = global:cmd+grave_accent=toggle_quick_terminal
 keybind = global:cmd+shift+enter=toggle_fullscreen
@@ -35,17 +33,7 @@ macos-titlebar-proxy-icon = "hidden"
 # macos-option-as-alt = true
 # keybind = alt+left=unbind
 # keybind = alt+right=unbind
-copy-on-select = clipboard
-app-notifications = no-clipboard-copy
-window-save-state = "always"
-scrollback-limit = 524288000
 quick-terminal-position = "top"
-quick-terminal-screen = "main"
-quick-terminal-autohide = true
-window-width = 150
-window-height = 40
-window-padding-x = 10
-window-padding-y = 10
 auto-update = "check"
 auto-update-channel = "tip"
 macos-icon = "custom-style"
