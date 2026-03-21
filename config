@@ -19,7 +19,8 @@ window-padding-x = 10
 window-padding-y = 10
 window-height = 40
 window-width = 150
-theme = "Adventure Time"
+# theme = "Adventure Time"
+theme = "Monokai Pro Octagon"
 font-size = 16
 font-family = "Hack Nerd Font Mono"
 # Quick terminal (drop-down)
